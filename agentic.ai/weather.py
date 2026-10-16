@@ -1,9 +1,6 @@
-
 import requests
-
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
-
 WEATHER_CODES = {
     0: "Clear sky",
     1: "Mainly clear",
@@ -176,3 +173,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
