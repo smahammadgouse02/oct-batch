@@ -1,6 +1,7 @@
-lst1=[10,20,30]
-lst2=[30,40,50]
-lst3= lst2+lst1
-print(lst1)
-print(lst2)
-print(lst3)
+nums=[2,5,9,1,9,]
+n=len(nums)
+for i in range(n):
+    for j in range(n-1):
+        if nums[j]>nums[j+1]:
+            nums[j],nums[j+1]=nums[j+1],nums[j]
+            print(nums)  { bubble sort algorithm }
